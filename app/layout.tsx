@@ -26,6 +26,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://makanhomerentalsltd.com"),
   title: "Makan Home Rentals | Premier UK Property Management",
   description:
     "Makan Home Rentals Ltd — Premier UK residential property management, high-end lettings, guaranteed rent schemes, and bespoke asset care across prime London postcodes.",
@@ -43,9 +44,26 @@ export const metadata: Metadata = {
     title: "Makan Home Rentals | Premier UK Property Management",
     description:
       "Bespoke property asset management and high-yield luxury lettings across London and prime UK postcodes.",
+    url: "https://makanhomerentalsltd.com",
     siteName: "Makan Home Rentals Ltd",
     locale: "en_GB",
     type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Makan Home Rentals Ltd - Premier UK Property Management",
+        type: "image/png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Makan Home Rentals | Premier UK Property Management",
+    description:
+      "Bespoke property asset management and high-yield luxury lettings across London and prime UK postcodes.",
+    images: ["/og-image.png"],
   },
   icons: {
     icon: [
